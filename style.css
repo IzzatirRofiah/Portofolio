@@ -399,3 +399,140 @@ footer {
         margin-top: 20px;
     }
 }
+
+/* ================= RESPONSIVE MOBILE ================= */
+@media screen and (max-width: 768px) {
+
+    /* NAVBAR */
+    nav {
+        flex-direction: column;
+        padding: 15px 5%;
+        gap: 15px;
+    }
+
+    nav .logo h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    /* HERO */
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 40px 5%;
+        gap: 30px;
+    }
+
+    .hero-left h1 {
+        font-size: 32px;
+    }
+
+    .hero-left p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .hero-right img {
+        width: 230px;
+        height: 230px;
+    }
+
+    /* BUTTON */
+    .hero-btn {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 250px;
+        text-align: center;
+    }
+
+    /* SOCIAL */
+    .social {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    /* SECTION */
+    section {
+        padding: 60px 5%;
+    }
+
+    section h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    /* ABOUT */
+    .about-box {
+        padding: 20px;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    /* SKILL */
+    .skill-container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    /* EXPERIENCE */
+    .experience-container {
+        flex-direction: column;
+    }
+
+    .experience-group {
+        width: 100%;
+    }
+
+    .exp {
+        padding: 20px;
+    }
+
+    .exp h3 {
+        font-size: 18px;
+    }
+
+    .exp p,
+    .exp li,
+    .exp span {
+        font-size: 14px;
+    }
+
+    /* SERTIFIKAT */
+    .sertifikat-container {
+        grid-template-columns: 1fr;
+    }
+
+    .sertifikat-card {
+        width: 100%;
+    }
+
+    .sertifikat-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* FOOTER */
+    footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+    }
+}
